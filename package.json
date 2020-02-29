@@ -1,0 +1,6 @@
+{
+    "name": "loupgarou",
+    "version": "0.0.0.0.1",
+    "description": "A discord chatbot for loup garou",
+    "main": "app.js"
+}
