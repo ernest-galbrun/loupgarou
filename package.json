@@ -1,6 +1,20 @@
 {
     "name": "loupgarou",
-    "version": "0.0.0.0.1",
+    "version": "0.0.1",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ernest-galbrun/loupgarou.git"
+    },
     "description": "A discord chatbot for loup garou",
-    "main": "app.js"
+    "main": "app.js",
+    "engines": {
+        "node": ">=8.0.0"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "^4.16.3"
+    }
 }
