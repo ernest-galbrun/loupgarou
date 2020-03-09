@@ -25,7 +25,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "/";
 
-client.login("NjY2MjQzMjM3MzEyNDYyODQ5.XjbzfQ.IReMd0aYDx7-97aswW0bpt0YDk4");
+client.login("NjY2MjQzMjM3MzEyNDYyODQ5.XmYtfA.dt8JD9nH8FQ7rlV-HtdUrFgZonk");
 
 client.on("message", message =>{
     if(!message.guild) return
